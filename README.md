@@ -1,5 +1,7 @@
 # How to install ZeroMQ on Raspberry Pi
 
+The following instructions should on your Raspbian distribution. Please report any problem. :)
+
 ## Packages
 
 ```sh
@@ -11,7 +13,7 @@ sudo apt-get install libtool pkg-config build-essential autoconf automake
 ZeroMQ builds against [the Sodium library](https://github.com/jedisct1/libsodium).
 
 ```sh
-wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.3.tar.gz
+wget https://github.com/jedisct1/libsodium/releases/download/1.0.3/libsodium-1.0.3.tar.gz
 tar -zxvf libsodium-1.0.3.tar.gz
 cd libsodium-1.0.3/
 ./configure
