@@ -1,6 +1,6 @@
 # How to install ZeroMQ on Raspberry Pi
 
-The following instructions should on your Raspbian distribution. Please report any problem. :)
+The following instructions should work on your Raspbian distribution. Please report any problem. :)
 
 ## Packages
 
