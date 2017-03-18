@@ -33,7 +33,7 @@ sudo make install
 sudo ldconfig
 ```
 
-# Optional bindinds
+# Optional bindings
 
 ## Python bindings: `pyzmq`
 
