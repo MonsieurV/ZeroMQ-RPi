@@ -24,9 +24,9 @@ sudo make install
 ## ZeroMQ
 
 ```sh
-wget http://download.zeromq.org/zeromq-4.1.3.tar.gz
-tar -zxvf zeromq-4.1.3.tar.gz
-cd zeromq-4.1.3/
+wget https://github.com/zeromq/libzmq/releases/download/v4.3.2/zeromq-4.3.2.tar.gz
+tar -zxvf zeromq-4.3.2.tar.gz
+cd zeromq-4.3.2/
 ./configure
 make
 sudo make install
