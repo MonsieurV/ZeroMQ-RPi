@@ -37,9 +37,18 @@ sudo ldconfig
 
 ## Python bindings: `pyzmq`
 
+### Python 2
+
 The [pyzmq package](https://github.com/zeromq/pyzmq) requires `python-dev` to compile.
 
 ```sh
-sudo apt-get install python-dev
+sudo apt-get install python-dev python-pip
 sudo pip install pyzmq
+```
+
+### Python 3
+
+```sh
+sudo apt-get install python3-dev python3-pip
+sudo pip3 install pyzmq
 ```
